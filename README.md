@@ -1,9 +1,20 @@
-Gradebook and Assessment Management System
+# Project Title: Gradebook and Assessment Management System
 
-Problem: Teachers likely manage grades and assessments using a combination of tools or even spreadsheets. This can be inefficient and difficult to analyze.
-Solution: Build a Spring Boot application to centralize gradebook functions and assessment tracking. Features could include:
-Flexible grade calculation systems (points, weighted categories, etc.)
-Customizable assessment creation (multiple-choice, short-answer, project-based)
-Student performance reports with visualizations and comparisons
-Integration with Skolon's existing student data
-Tech Stack: Spring Boot, Spring Data JPA (for database interaction), MySQL/other database, Thymeleaf or a JavaScript front-end framework (React, Vue).
+## Description
+
+This Spring Boot application provides a centralized system for managing grades and assessments, offering an efficient alternative to the combination of spreadsheets and tools commonly used. It features flexible grade calculation systems, customizable assessments (multiple-choice, short-answer, project-based), student performance reports with visualizations, and integration with existing student data systems like Skolon.
+
+## Getting Started
+
+### Prerequisites
+
+- Java 17 or higher
+- Maven 3.6+ or Gradle 6+ (depending on your build tool preference)
+- MySQL or another relational database installed and running
+
+### Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/akhilsplendid/spring_boot.git
